@@ -256,10 +256,161 @@
         </div>
     </div>
 </section>
+<section id="education" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-5 fw-bold display-5 text-center text-dark">Education</h2>
+        <div class="timeline">
+            <!-- National Diploma -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <p class="fw-bold text-dark mb-1">Tshwane University of Technology</p>
+                    <p class="text-muted mb-0">National Diploma in Information Technology</p>
+                    <p class="text-muted">Graduated: 2023</p>
+                </div>
+                <div class="timeline-right">
+                    <h6 class="fw-semibold mb-2">Modules Passed:</h6>
+                    <ul class="modules-list">
+                        <li>Software Development IA/IB, Computing Fundamentals IA/IB.</li>
+                        <li>Computing Systems IA/IB, Computing Skills IA/IB (First Year).</li>
+                        <li>Information Systems IIA/IIB, Graphical User Interface IIA/IIB.</li>
+                        <li>Multimedia Technology IIA/IIB, Internet Programming IIA/IIB.</li>
+                        <li>Technical Programming IIA/IIB (Second Year).</li>
+                        <li>Multimedia Design, Programming IIIA/IIIB.</li>
+                        <li>Industry Exposure IIIA/IIB (Third Year).</li>
+                    </ul>
+                </div>
+            </div>
 
+            <!-- Electrical Engineering N4 -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <p class="fw-bold text-dark mb-1">Gert Sibande TVET College</p>
+                    <p class="text-muted mb-0">Electrical Engineering N4</p>
+                    <p class="text-muted">Completed: 2016</p>
+                </div>
+                <div class="timeline-right">
+                    <h6 class="fw-semibold mb-2">Modules Passed:</h6>
+                    <ul class="modules-list">
+                        <li>Mathematics N4.</li>
+                        <li>Industrial Electronics N4.</li>
+                        <li>Engineering Science N4.</li>
+                        <li>Electrotechnics N4.</li>
+                    </ul>
+                </div>
+            </div>
 
+            <!-- National Senior Certificate -->
+            <div class="timeline-item">
+                <div class="timeline-left">
+                    <p class="fw-bold text-dark mb-1">Siyabonga Secondary School</p>
+                    <p class="text-muted mb-0">National Senior Certificate</p>
+                    <p class="text-muted">Completed: 2013</p>
+                </div>
+                <div class="timeline-right">
+                    <h6 class="fw-semibold mb-2">Modules Passed:</h6>
+                    <ul class="modules-list ">
+                        <li>Mathematics (Maths).</li>
+                        <li>Life Sciences (LS).</li>
+                        <li>Agricultural Sciences (Agric).</li>
+                        <li>Physical Sciences (Physics).</li>
+                        <li>Life Orientation (LO).</li>
+                        <li>English First Additional Language (FAL).</li>
+                        <li>Swati Home Language (HL).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    
+<style>
+    /* Timeline Structure */
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 20px;
+        border-left: 3px solid #333;
+        padding-left: 40px;
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .timeline-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Timeline Dots */
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -22px;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        background: linear-gradient(45deg, #000, #fff);
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Left Section (Institution Info) */
+    .timeline-left {
+        margin-bottom: 10px;
+    }
+
+    .timeline-left p {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Right Section (Modules and Details) */
+    .timeline-right {
+        background: rgba(255, 254, 254, 0.8);
+        padding: 20px;
+        max-width:500px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-right h6 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .modules-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .modules-list li {
+        margin-bottom: 5px;
+        font-size: 0.95rem;
+        color: #555;
+    }
+
+    /* General Typography */
+    .fw-bold {
+        font-weight: 600;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .timeline {
+            margin-left: 10px;
+            padding-left: 20px;
+        }
+
+        .timeline-item::before {
+            left: -15px;
+        }
+
+        .timeline-right {
+            padding: 15px;
+        }
+    }
+</style>
 
     <section id="projects" class="py-5 bg-light text-center">
         <div class="container">
