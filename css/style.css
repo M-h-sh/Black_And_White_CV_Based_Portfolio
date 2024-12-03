@@ -45,6 +45,15 @@ p {
     transform: translateY(-2px);
 }
 
+/* Gradient text effect */
+.gradient-text {
+    background: linear-gradient(45deg, #000000, #000000, #ffffff); /* Black to white gradient */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent so the gradient shows */
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: 300; /* Adjust font weight */
+}
+
  /* Skill Card Base Styling */
  .skill-card {
     background: white;
