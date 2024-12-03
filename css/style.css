@@ -45,6 +45,69 @@ p {
     transform: translateY(-2px);
 }
 
+ /* Skill Card Base Styling */
+ .skill-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+    min-height:220px;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Circular container for icons with gradient */
+.skill-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,black,black, #ffffff); /* Black-to-white gradient */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    transition: background 0.3s ease;
+}
+
+/* Skill Icon Gradient Styling */
+.skill-icon {
+    font-size: 2.5rem;
+    color: transparent;
+    background: linear-gradient(45deg, white, #ffffff, #ffffff); /* Black-and-white gradient effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
+}
+
+/* Change gradient direction on hover */
+.skill-card:hover .skill-icon {
+    background: linear-gradient(45deg, #ffffff, #ffffff, #000000); /* Reversed gradient effect on hover */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+/* Text styling */
+.text-muted {
+    color: #ccc;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        margin-bottom: 20px;
+    }
+}
+
 
 footer {
     font-size: 0.9rem;
