@@ -105,6 +105,52 @@ p {
     font-weight: 600;
 }
 
+  /* Experience Card */
+  .experience-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 36px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.experience-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.experience-card .bi {
+    font-size: 2rem;
+    background: linear-gradient(45deg, #000000,#000000, #ffffff); /* Gradient from black to white */
+    -webkit-background-clip: text;  /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent so gradient is visible */
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    background: #f0f0f0;
+}
+
+/* Add some spacing for responsiveness */
+.me-3 {
+    margin-right: 1rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
 /* Text styling */
 .text-muted {
     color: #ccc;
