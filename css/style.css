@@ -226,7 +226,7 @@ p {
   
   .swiper-button-next:after, .swiper-button-prev:after {
     font-size:30px;
-    color:#000;
+    color:#f2eeee;
   }
 
   
@@ -250,7 +250,7 @@ p {
   }
 
   .swiper-pagination-bullet{
-    background:rgb(236, 236, 255);
+    background:rgb(251, 251, 251);
   }
   
   .swiper-slide {
