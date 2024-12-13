@@ -54,6 +54,15 @@ p {
     font-weight: 300; /* Adjust font weight */
 }
 
+.text-xxs {
+  font-size:13px;
+}
+
+.skills{
+  background-image: url('../images/skills.png');
+  background-size: cover;
+}
+
  /* Skill Card Base Styling */
  .skill-card {
     background: white;
@@ -107,7 +116,8 @@ p {
 
   /* Experience Card */
   .experience-card {
-    background: #ffffff;
+    background-image:url('../images/exp-card.png');
+    background-size: cover;
     border-radius: 12px;
     padding: 36px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -372,9 +382,11 @@ p {
 }
 
 /* Contact Section Styling */
-#contact {
+.contact {
   padding: 3rem 0;
-  background: #f8f9fa; /* Light background */
+  background-image: url('../images/contact.png');
+  background-size: cover;
+  background-attachment: fixed; /* Light background */
   text-align: center;
 }
 
@@ -407,13 +419,19 @@ p {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.contact-item i.gradient-icon {
-  font-size: 1.5rem;
+.gradient-icon {
+  font-size: 4rem;
   color: #fff;
   background: linear-gradient(45deg,black,black,white);
-  padding: 0.5rem;
+  padding: 1.2rem;
   border-radius: 50%;
-  margin-right: 1rem;
+  margin-left:1rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-icon:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
 
 .contact-item a {
