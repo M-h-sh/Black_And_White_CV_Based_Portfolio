@@ -149,8 +149,8 @@ p {
     padding:14px;
     background-image: url('../images/exp-icon.png');
     background-size: cover;
-    width: 100px;
-    height:100px;
+    width: 90px;
+    height: 90px;
     object-fit: contain;
 }
 
