@@ -98,7 +98,7 @@ p {
 .skill-icon {
     font-size: 2.5rem;
     color: transparent;
-    background: linear-gradient(45deg,rgb(250, 248, 248), #f3f2f2, #ffffff); /* Black-and-white gradient effect */
+    background: linear-gradient(45deg,rgb(240, 239, 239), #f6f5f5, #ffffff); /* Black-and-white gradient effect */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: background 0.3s ease;
@@ -106,7 +106,7 @@ p {
 
 /* Change gradient direction on hover */
 .skill-card:hover .skill-icon {
-    background: linear-gradient(45deg, #ffffff, #ffffff, #000000); /* Reversed gradient effect on hover */
+    background: linear-gradient(45deg, #ffffff, #fefbfb, #f8f7f7); /* Reversed gradient effect on hover */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
