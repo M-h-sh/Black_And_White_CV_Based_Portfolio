@@ -54,11 +54,12 @@ $(document).ready(function() {
   $('#current-year').text(currentYear);
 });
 
-$(window).on('load', function() {
+$(window).on('load', function () {
   // Set a minimum duration for the preloader
-  setTimeout(function() {
-      $('#preloader').fadeOut('slow', function() {
+  setTimeout(function () {
+      // Fade out the preloader
+      $('#preloader').fadeOut('slow', function () {
           $(this).remove(); // Remove the preloader from the DOM
       });
-  }, 2000); // 3000ms = 3 seconds
+  }, 3000); // 3000ms = 3 seconds
 });
