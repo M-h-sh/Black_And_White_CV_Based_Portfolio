@@ -47,3 +47,9 @@ window.addEventListener("click", (event) => {
       closeModal();
   }
 });
+
+$(document).ready(function() {
+  // Get the current year and set it to the span with id "current-year"
+  const currentYear = new Date().getFullYear();
+  $('#current-year').text(currentYear);
+});
