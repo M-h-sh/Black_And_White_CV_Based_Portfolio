@@ -61,5 +61,5 @@ $(window).on('load', function () {
       $('#preloader').fadeOut('slow', function () {
           $(this).remove(); // Remove the preloader from the DOM
       });
-  }, 3000); // 3000ms = 3 seconds
+  }, 2000); // 3000ms = 3 seconds
 });
