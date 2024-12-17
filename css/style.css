@@ -143,11 +143,11 @@ p {
     background-image:url('../images/exp-card.png');
     background-size: cover;
     border-radius: 12px;
-    padding: 14px;
+    padding: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: left;
-    min-height:690px;
+    min-height:100%;
 }
 
 .experience-card:hover {
