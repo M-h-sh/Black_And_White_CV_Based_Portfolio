@@ -53,13 +53,3 @@ $(document).ready(function() {
   const currentYear = new Date().getFullYear();
   $('#current-year').text(currentYear);
 });
-
-$(window).on('load', function () {
-  // Set a minimum duration for the preloader
-  setTimeout(function () {
-      // Fade out the preloader
-      $('#preloader').fadeOut('slow', function () {
-          $(this).remove(); // Remove the preloader from the DOM
-      });
-  }, 1000); // 3000ms = 3 seconds
-});
