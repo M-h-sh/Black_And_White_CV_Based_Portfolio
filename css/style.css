@@ -62,6 +62,7 @@ p {
 .skills{
   background-image: url('../images/skills.png');
   background-size: cover;
+  background-attachment: fixed;
 }
 
  /* Skill Card Base Styling */
